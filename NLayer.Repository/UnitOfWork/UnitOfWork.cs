@@ -4,7 +4,7 @@ namespace NLayer.Repository.UnitOfWork;
 
 public class UnitOfWork : IUnitOfWork
 {
-    private readonly AppDbContext _context;
+    private readonly AppDbContext _context; 
 
     public UnitOfWork(AppDbContext context)
     {
